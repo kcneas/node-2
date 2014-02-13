@@ -1,3 +1,18 @@
+.abc{
+    font-size: 40px;
+    color:#695b8e;
+}
+.pure-g-r{
+    margin: 0 auto;
+}
+div.pure-u-1-5{
+    float:left;
+/* margin-left: 10px; */
+/* margin-right: 20px; */
+width: 200px;
+}
+
+
 .splash > .darken-bg {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 100px 0;
