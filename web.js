@@ -3,14 +3,14 @@ var app = express();
 var fs = require('fs'); // 파일 로드 사용.
 var count = 0;
 
-
+app.use('/', express.static(__dirname + "/"));
 app.use('/js', express.static(__dirname + "/js"));
 app.use('/css', express.static(__dirname + "/css"));
 app.use('/images', express.static(__dirname + "/images"));
 app.use('/font', express.static(__dirname + "/font"));
 // 라우팅 설정
 app.get('/', function (req, res) { 
-    fs.readFile('main.html', function (error, data) { // index.html 파일 로드 .
+    fs.readFile('index.html', function (error, data) { // index.html 파일 로드 .
         if (error) {
          console.log(error);
         } else {
