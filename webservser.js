@@ -1,7 +1,7 @@
 var express = require('express'); // 웹서버 사용 .
 var app = express();
 var fs = require('fs'); // 파일 로드 사용.
-
+var count = 0;
 
 
 app.use('/js', express.static(__dirname + "/js"));
@@ -18,10 +18,10 @@ app.get('/', function (req, res) {
             res.end(data); // 로드 html response .
             var forwardedIpsStr = req.header('x-forwarded-for');
            var IP = '';
-        
+           
            if (forwardedIpsStr) {
               IP = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-              console.log(IP);
+              console.log(IP + "  count : " + count++);
            }
         } 
     });
@@ -32,4 +32,5 @@ app.get('/', function (req, res) {
 app.listen(process.env.PORT, function () { 
 console.log('Server Start .');
 });
+
 

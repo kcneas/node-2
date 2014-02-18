@@ -7,6 +7,11 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+ 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+
 article,
 aside,
 details,
@@ -108,7 +113,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #393e46;
@@ -535,7 +540,7 @@ a:hover {
 }
 p {
   margin: 0 0 12px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Nanum Gothic", sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
@@ -806,7 +811,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Nanum Gothic", sans-serif;
 }
 label {
   display: block;
@@ -3269,7 +3274,7 @@ input[type="submit"].btn.small {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Nanum Gothic", sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4912,7 +4917,7 @@ body {
   color: #393e46;
   background: #eff2f5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+   font-family: "Nanum Gothic", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -5479,11 +5484,12 @@ header:after {
   background: #17c740;
 }
 footer {
- /* padding: 80px 0 82px;*/
- padding-bottom: 50px;
+ padding: 30px 0 30px;
+ /*padding-bottom: 50px;*/
 }
 footer #footerText{
-    text-align: center;
+    text-align: left;
+    margin-left: 190px;
 }
 /* ------------ Plans and Pricing ---------- */
 .plans h2 {
@@ -5989,8 +5995,8 @@ input[type=email] {
     display: none;
   }
   header p {
-    font: 16px/1.4 "proxima-nova", "Helvetica Neue", arial, sans-serif;
-  }
+    font-family: "Nanum Gothic", sans-serif;
+    }
   #CModal,
   footer {
     display: none;
@@ -6061,7 +6067,7 @@ div.owl-wrapper-outer{
 div.owl-pagination{
   margin-left: 50px;
 }
-table.table.table-hover td:first-child {width:200px;}
+table.table.table-hover td:first-child {width:210px;}
 table.table.table-hover td:nth-child(n+2) {text-align: right;}
 table.table.table-hover td+td{}
 table.table.table-hover th:first-child {color:green;}
