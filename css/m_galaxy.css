@@ -1,20 +1,6 @@
-/*!
- * Bootstrap v2.0.1
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
- 
 
-
-    
-@media screen and (min-width: 960px) {
-    
-    
-
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@media screen and (max-width: 959px) { 
 article,
 aside,
 details,
@@ -152,7 +138,7 @@ a:hover {
 }
 [class*="span"] {
   float: left;
-  margin-left: 20px;
+ /* margin-left: 20px;*/
 }
 .span1 {
   width: 60px;
@@ -225,7 +211,7 @@ a:hover {
   margin-left: 900px;
 }
 .row {
-  margin-left: -20px;
+  /*margin-left: -20px;*/
   *zoom: 1;
 }
 .row:before,
@@ -246,7 +232,7 @@ a:hover {
 }
 [class*="span"] {
   float: left;
-  margin-left: 20px;
+ /* margin-left: 20px;*/
 }
 .span1 {
   width: 60px;
@@ -456,10 +442,10 @@ a:hover {
    text-align: left;    
 }
 .container div#count_title_1{
-    margin-left: 70px;
+    margin-left: 40px;
 }
 .container div#count_title_2{
-    margin-left: 50px;
+    margin-left: 10px;
   
 }
 
@@ -479,13 +465,16 @@ a:hover {
 }
 
 .container div#div_1_palce{
-  
+  width: 340px;
+margin-left: 10px;
 }
 .container div#div_2_palce{
   margin-top: 15px;
+  margin-left:40px;
 }
 .container div#div_3_palce{
   margin-top: 35px;
+  margin-left:80px;
 }
 
 .container:before,
@@ -5050,9 +5039,6 @@ header .screenshot {
   border-radius: 14px 14px 0 0;
   margin-left:220px;
   margin-top: -50px;
-  background-image: url("../images/bg.png");
-  background-repeat: no-repeat;
-  height: 400px;
 }
 
 header:after {
@@ -5493,7 +5479,7 @@ footer {
 }
 footer #footerText{
     text-align: left;
-    margin-left: 190px;
+  /*  margin-left: 190px;*/
 }
 /* ------------ Plans and Pricing ---------- */
 .plans h2 {
@@ -5650,7 +5636,7 @@ footer #footerText{
 .workflow-illustration .workflow-illustration-item {
   position: relative;
   text-align: center;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 .workflow-illustration .workflow-illustration-item.first {
   left: -10px;
@@ -5884,7 +5870,7 @@ footer #footerText{
   .workflow-illustration-item {
     left: auto !important;
     right: auto !important;
-    padding: 40px !important;
+   /* padding: 40px !important;*/
   }
 }
 @media (max-width: 979px) {
@@ -6063,10 +6049,10 @@ input[type=email] {
 
 div.owl-item table.table.table-hover{
   width: 600px;
-  margin-left: 350px;
+  /*margin-left: 350px;*/
 }
 div.owl-wrapper-outer{
-  /*height: 660px;*/
+  height: 440px;
 }
 div.owl-pagination{
   margin-left: 50px;
@@ -6076,8 +6062,8 @@ table.table.table-hover td:nth-child(n+2) {text-align: right;}
 table.table.table-hover td+td{}
 table.table.table-hover th:first-child {color:green;}
 table.table.table-hover th:nth-child(n+2) {color:green;text-align: right;}
-table.table.table-hover td:last-child {width:130px;}
-
-}
-
-
+table.table.table-hover td:last-child {}
+  
+    }
+  
+  
